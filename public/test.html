@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Take Test</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1 id="testTitle">Loading test...</h1>
+      <p>Answer all questions and submit to generate score.</p>
+
+      <label for="candidateName">Your Name</label>
+      <input id="candidateName" placeholder="Engineer name" />
+
+      <form id="testForm"></form>
+
+      <button id="submitBtn" type="button">Submit Answers</button>
+      <p id="error" class="error"></p>
+      <div id="result" class="result" style="display:none"></div>
+    </div>
+  </div>
+  <script src="/test.js"></script>
+</body>
+</html>

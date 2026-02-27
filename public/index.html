@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Test</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Assessment Builder</h1>
+      <p>Create a test, generate a shareable link, and send it to engineers.</p>
+
+      <label for="title">Test Title</label>
+      <input id="title" placeholder="Frontend Engineer Screening" />
+
+      <div id="questions"></div>
+
+      <div class="row">
+        <button type="button" class="secondary" id="addQuestion">Add Question</button>
+        <button type="button" id="createTest">Create Test Link</button>
+      </div>
+
+      <p id="error" class="error"></p>
+      <div id="share" class="link-box" style="display:none"></div>
+    </div>
+  </div>
+  <script src="/index.js"></script>
+</body>
+</html>
